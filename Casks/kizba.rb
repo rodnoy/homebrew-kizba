@@ -1,8 +1,8 @@
 cask "kizba" do
-  version "0.0.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  version "1.0.0"
+  sha256 "9825e0d167ebcfc2aba2d08603b447c5977cbef3e9825af205bbe37376f575b7"
 
-  url "https://github.com/rodnoy/kizba/releases/download/v#{version}/Kizba-v#{version}.zip"
+  url "https://github.com/rodnoy/kizba/releases/download/v1.0.0/Kizba-v1.0.0.zip"
   name "Kizba"
   desc "Native macOS GUI for the pass password manager"
   homepage "https://github.com/rodnoy/kizba"
@@ -33,12 +33,9 @@ cask "kizba" do
       2. Or after install, run:
          xattr -dr com.apple.quarantine /Applications/Kizba.app
 
-      3. Or right-click Kizba.app → Open the first time.
+      3. Or right-click Kizba.app -> Open the first time.
 
     Runtime dependencies (install separately if not present):
       brew install pass gnupg pinentry-mac
-
-    NOTE: This is a placeholder cask. The first release via the GitHub
-    Actions workflow will overwrite this file with real version + sha256.
   EOS
 end
