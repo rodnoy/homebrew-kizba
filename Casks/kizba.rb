@@ -1,8 +1,8 @@
 cask "kizba" do
-  version "1.0.0"
-  sha256 "9825e0d167ebcfc2aba2d08603b447c5977cbef3e9825af205bbe37376f575b7"
+  version "1.0.1"
+  sha256 "292e2fc140e0e7fac0e02b0d4b70c74ab425fffe4f86fa3a34982c1c8eb6488e"
 
-  url "https://github.com/rodnoy/kizba/releases/download/v1.0.0/Kizba-v1.0.0.zip"
+  url "https://github.com/rodnoy/kizba/releases/download/v1.0.1/Kizba-v1.0.1.zip"
   name "Kizba"
   desc "Native macOS GUI for the pass password manager"
   homepage "https://github.com/rodnoy/kizba"
